@@ -4,7 +4,7 @@ technology: "ClickHouse"
 summary: "Provision, scale, and secure production-grade ClickHouse clusters on any Kubernetes cluster. Standalone or replicated topologies through a single UI and API, powered by the Altinity Kubernetes Operator for ClickHouse."
 logo: "/images/for/clickhouse/logo.svg"
 weight: 4
-draft: true
+draft: false
 
 # Carousel: screenshots are required; add a slide with `youtube:` for an embedded video.
 # TODO(#143): slides 2-4 still need to be captured against a live
