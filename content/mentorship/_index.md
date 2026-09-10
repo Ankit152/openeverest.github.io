@@ -14,7 +14,7 @@ intro: |
 programs:
   - title: "Develop the Object Storage provider"
     term: "2026 Term 3 — Sep–Nov"
-    status: "Accepting applications"
+    status: "In progress"
     sponsor: "CNCF"
     summary: |
       OpenEverest already manages databases on Kubernetes through its provider framework.
@@ -35,10 +35,13 @@ programs:
         slug: "recharte"
       - name: "Sergey Pronin"
         slug: "spron-in"
+    mentees:
+      - name: "Aditya Pimpalkar"
+        slug: "adityapimpalkar"
 
   - title: "Performance Testing Plugin"
     term: "2026 Term 3 — Sep–Nov"
-    status: "Accepting applications"
+    status: "In progress"
     sponsor: "CNCF"
     summary: |
       OpenEverest v2 already ships with a generic plugin framework that provides extension points
@@ -60,6 +63,8 @@ programs:
         slug: "recharte"
       - name: "Sergey Pronin"
         slug: "spron-in"
+    mentees:
+      - name: "Abdul Moiz"
 
   - title: "Plugin Developer Playground: Interactive UI Schema Editor"
     term: "2026 Term 2 — Jun–Aug"
