@@ -3,7 +3,7 @@ title: "MariaDB"
 technology: "MariaDB"
 summary: "Provision, scale, and back up production-grade MariaDB clusters on any Kubernetes cluster. High availability, automated backups, and point-in-time recovery through a single UI and API."
 logo: "/images/for/mariadb/logo.svg"
-weight: 1
+weight: 2
 draft: false
 
 # Carousel: screenshots are required; add a slide with `youtube:` for an embedded video.

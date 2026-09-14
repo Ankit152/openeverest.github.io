@@ -3,7 +3,7 @@ title: "MongoDB"
 technology: "MongoDB"
 summary: "Provision, scale, and back up production-grade MongoDB clusters on any Kubernetes cluster. Replica sets, sharding, automated backups, and point-in-time recovery through a single UI and API."
 logo: "/images/for/mongodb/logo.svg"
-weight: 2
+weight: 3
 draft: false
 
 # Carousel: screenshots are required; add a slide with `youtube:` for an embedded video.
