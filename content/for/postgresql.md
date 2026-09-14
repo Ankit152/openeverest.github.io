@@ -3,7 +3,7 @@ title: "PostgreSQL"
 technology: "PostgreSQL"
 summary: "Provision, scale, and operate production-grade PostgreSQL clusters on any Kubernetes cluster. High availability, automated backups, point-in-time recovery, and a choice of CloudNativePG or Percona through a single UI and API."
 logo: "/images/for/postgresql/logo.svg"
-weight: 3
+weight: 4
 draft: false
 
 # The final annotated screenshots are stored under static/images/for/postgresql/.
