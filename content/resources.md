@@ -7,6 +7,16 @@ layout: resources
 
 # Events - will be automatically sorted into upcoming/past based on date
 events:
+  - title: "Comparing Vector Databases on Kubernetes"
+    url: "https://buildevcon.com/events/vector-in-databases"
+    event_name: "BuildDevCon, DB Mastery Series, Vector Databases"
+    location: "Virtual Conference"
+    date: 2026-10-23
+    speaker: "Sergey Pronin"
+    speaker_slug: "spron-in"
+    type: "conference"
+    image: "/images/resources/builddevcon-2026-vector-databases.png"
+
   - title: "Meet our team at Percona.Connect Amsterdam"
     url: "https://www.percona.com/events/"
     event_name: "Percona.Connect Amsterdam"
