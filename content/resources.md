@@ -18,6 +18,16 @@ events:
     image: "/images/resources/PerconaConnect.png"
     description: "Thursday, November 3. What's new in OpenEverest?"
   
+  - title: "ChatLoopBackOff Episode 81: PROJECT with Henrik and Sergey"
+    url: "https://community2.cncf.io/events/details/cncf-cncf-online-programs-presents-chatloopbackoff-episode-81-project-with-henrik-and-sergey/"
+    event_name: "CNCF Online Programs — ChatLoopBackOff"
+    location: "Virtual Conference"
+    date: 2026-09-24
+    speaker: "Henrik Rexed & Sergey Pronin"
+    speaker_slug: "spron-in"
+    type: "webinar"
+    description: "Wednesday, September 24. CNCF Ambassador Henrik Rexed explores OpenEverest for the first time, with CNCF Maintainer Sergey Pronin live on stream."
+  
   - title: "Meet our team at Percona.Connect Paris"
     url: "https://connect.percona.com/paris-2026/"
     event_name: "Percona.Connect Paris"
