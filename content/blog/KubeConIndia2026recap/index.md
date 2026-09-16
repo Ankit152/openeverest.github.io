@@ -20,7 +20,7 @@ summary: OpenEverest was present at KubeCon + CloudNativeCon India 2026, held in
 
 OpenEverest was present at KubeCon + CloudNativeCon India 2026, held in Mumbai on June 18–19. The booth was represented by Neel Shah, Vijeta Priya, and Atharva Mhaske, reflecting a strong community-led presence for the project.**
 
-![Booth Photo](booth2.png)
+![Booth Photo](booth2.jpg)
 
 The event created strong visibility for OpenEverest among cloud-native practitioners, platform engineers, DevOps leaders, and ecosystem advocates, with more than **200 attendees** engaging at the booth!
 
@@ -32,7 +32,7 @@ Attendees who were stopping by the booth could learn about:
 * Contributing to OpenEverest — including the LFX Mentorship program
 * What’s on the roadmap
 
-![Booth Photo](booth1.png)
+![Booth Photo](booth1.jpg)
 
 The outcome?
 
