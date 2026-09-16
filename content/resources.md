@@ -15,6 +15,7 @@ events:
     speaker: "Marcin Gwozdz"
     speaker_slug: "gwozdzm"
     type: "conference"
+    image: "/images/resources/kubecon-us-2026-cover.png"
     description: "A talk on how OpenEverest rebuilt its architecture into a modular, vendor-neutral plugin system."
 
   - title: "Meet OpenEverest at KubeCon + CloudNativeCon North America 2026"
@@ -25,6 +26,7 @@ events:
     speaker: "Marcin Gwozdz"
     speaker_slug: "gwozdzm"
     type: "conference"
+    image: "/images/resources/kubecon-us-2026-cover.png"
     description: "Visit our kiosk in the Solutions Showcase on Wednesday, November 11 · 1:55–5:00 PM. Kiosk details and who you'll meet."
 
   - title: "Comparing Vector Databases on Kubernetes"

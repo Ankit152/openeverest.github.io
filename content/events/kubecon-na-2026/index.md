@@ -8,6 +8,8 @@ event_url: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-amer
 event_date: 2026-11-11
 location: "Salt Lake City, Utah"
 date_range: "November 9–12, 2026"
+image:
+  url: "/images/resources/kubecon-us-2026-cover.png"
 
 # Where to find us
 schedule:
