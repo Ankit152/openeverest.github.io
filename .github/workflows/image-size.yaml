@@ -1,0 +1,46 @@
+name: Image size check
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  image-size:
+    name: Check image sizes
+    runs-on: ubuntu-latest
+    env:
+      # Maximum allowed size (KB) for images committed under content/.
+      MAX_IMAGE_KB: 1024
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          fetch-depth: 0
+      - name: Check image sizes
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base="${{ github.event.pull_request.base.sha }}"
+            echo "Checking images added or modified in this PR (limit ${MAX_IMAGE_KB} KB)..."
+            files=()
+            while IFS= read -r f; do
+              files+=("$f")
+            done < <(git diff --name-only --diff-filter=AM "$base...HEAD" -- content \
+                       | grep -Ei '\.(png|jpe?g|gif|webp|svg)$' || true)
+            if [ "${#files[@]}" -eq 0 ]; then
+              echo "No added or modified images under content/ - nothing to check."
+              exit 0
+            fi
+            ./hack/check_image_sizes.sh "${files[@]}"
+          else
+            echo "Scanning all images under content/ (limit ${MAX_IMAGE_KB} KB)..."
+            ./hack/check_image_sizes.sh
+          fi
