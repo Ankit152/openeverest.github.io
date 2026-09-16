@@ -7,6 +7,28 @@ layout: resources
 
 # Events - will be automatically sorted into upcoming/past based on date
 events:
+  - title: "Architecture Without Gatekeepers: Decoupling for Neutrality"
+    url: "/events/kubecon-na-2026/"
+    event_name: "KubeCon + CloudNativeCon North America 2026"
+    location: "Salt Lake City, Utah"
+    date: 2026-11-11
+    speaker: "Marcin Gwozdz"
+    speaker_slug: "gwozdzm"
+    type: "conference"
+    image: "/images/resources/kubecon-us-2026-cover.png"
+    description: "A talk on how OpenEverest rebuilt its architecture into a modular, vendor-neutral plugin system."
+
+  - title: "Meet OpenEverest at KubeCon + CloudNativeCon North America 2026"
+    url: "/events/kubecon-na-2026/"
+    event_name: "KubeCon + CloudNativeCon North America 2026"
+    location: "Salt Lake City, Utah — Solutions Showcase, Level 1, Hall 5, Kiosk P-15B"
+    date: 2026-11-11
+    speaker: "Marcin Gwozdz"
+    speaker_slug: "gwozdzm"
+    type: "conference"
+    image: "/images/resources/kubecon-us-2026-cover.png"
+    description: "Visit our kiosk in the Solutions Showcase on Wednesday, November 11 · 1:55–5:00 PM. Kiosk details and who you'll meet."
+
   - title: "Comparing Vector Databases on Kubernetes"
     url: "https://buildevcon.com/events/vector-in-databases"
     event_name: "BuildDevCon, DB Mastery Series, Vector Databases"
